@@ -19,9 +19,11 @@ func carteiraHabilitacao() {
 		fmt.Printf("Olá %s, você está pronto para tirar a carteira, já tem %d anos.", nome, idade)
 	} else {
 		fmt.Printf("Desculpe %s, você ainda é menor de idade.\nNão é possível agora. 😉", nome)
+		println()
 	}
 }
 
 func main() {
 	carteiraHabilitacao()
+
 }
